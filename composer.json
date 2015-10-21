@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cep": "src/"
+            "Cep\\": "src/"
         }
     }
 }
