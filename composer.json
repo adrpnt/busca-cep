@@ -3,7 +3,6 @@
     "description": "Buscador de endereços baseados no CEP",
     "keywords" : ["viacep", "cep", "php"],
     "homepage" : "https://github.com/adrpnt/busca-cep",
-    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -20,6 +19,10 @@
             "Cep\\": "src/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
     "minimum-stability": "dev",
-    "prefer-stable": true
 }
