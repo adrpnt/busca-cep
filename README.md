@@ -6,7 +6,7 @@ Buscador de endereços no site ViaCEP baseado no CEP, para maiores informações
 ### Instalação
 Execute no terminal:
 ```
-composer require "adrpnt/busca-cep"
+composer require "adrpnt/busca-cep":"dev-master"
 ```
 
 Ou edite seu composer.json e adicione
