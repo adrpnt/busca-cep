@@ -19,5 +19,5 @@
         "psr-4": {"Cep\\": "src/Cep"}
     },
     "minimum-stability": "dev",
-    "preferred-install": "dev"
+    "preferred-install": "stable"
 }
