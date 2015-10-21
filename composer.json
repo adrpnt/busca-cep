@@ -15,8 +15,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Cep\\": "src/Cep/"
+            "Cep\\": "src/"
         }
+    },
+    "replace": {
+        "adrpnt/busca-cep": "self.version"
     },
     "minimum-stability": "dev"
 }
