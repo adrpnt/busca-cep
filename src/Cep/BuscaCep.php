@@ -21,9 +21,9 @@ class BuscaCep {
      * @param string $type Tipo de retorno ("json", "xml", "piped" ou "querty")
      * @echo string
      */
-    public function busca($cep, $type = json) {
+    public function busca($cep, $type = 'json') {
     	if(!$this->validarCep($cep)){
-    		return json_encode(['error' => "CEP em formato inválido."];
+    		return json_encode(['error' => "CEP em formato inválido."]);
     	}
 
         $url = str_replace(array('[cep]', '[type]'), array($cep, $type), self::URL);
@@ -45,7 +45,7 @@ class BuscaCep {
 	    $cep = str_replace("-", "", trim($cep));
 
 	    // expressao regular para avaliar o cep
-	    $checkCep = preg_match("^[0-9]{8}$", $cep);
+	    $checkCep = preg_match("/^[0-9]{8}$/", $cep);
 	    
 	    // verifica o resultado
 	    if(!$checkCep) {            
