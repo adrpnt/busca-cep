@@ -12,7 +12,7 @@ composer require "adrpnt/busca-cep":"dev-master"
 Ou edite seu composer.json e adicione
 ```
 require : {
-    "adrpnt/busca-cep" : "dev-master"
+    "adrpnt/busca-cep": "dev-master"
 }
 ```
 ### Exemplo
