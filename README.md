@@ -1,6 +1,5 @@
 # Busca CEP
-Buscador de endereços no site ViaCEP baseado no CEP.
-Para maiores informações [Visite ViaCEP](https://viacep.com.br/)
+Buscador de endereços no site ViaCEP baseado no CEP, para maiores informações [Visite ViaCEP](https://viacep.com.br/).
 
 ## Instruções
 
@@ -20,7 +19,9 @@ require : {
 ```
 use Cep\BuscaCep;
 $busca_cep = new BuscaCep();
-result = $busca_cep->busca('00000-000');
+result = $busca_cep->busca($cep, $type);
 ```
 
-Você pode pesquisar o CEP nos formatos **00000-000** ou **00000000**
+Você pode pesquisar o CEP nos formatos **00000-000** ou **00000000**.
+
+Tipos permitidos ("json", "xml", "piped" ou "querty"), por padrão o tipo é json.
