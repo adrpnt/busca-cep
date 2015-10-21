@@ -18,8 +18,9 @@ require : {
 ### Exemplo
 ```
 use Cep\BuscaCep;
+
 $busca_cep = new BuscaCep();
-result = $busca_cep->busca($cep, $type);
+$result = $busca_cep->busca($cep, $type);
 ```
 
 Você pode pesquisar o CEP nos formatos **00000-000** ou **00000000**.
