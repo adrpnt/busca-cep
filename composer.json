@@ -18,4 +18,5 @@
     "autoload": {
         "psr-4": {"Cep\\": "src/Cep"}
     },
+    "minimum-stability": "dev",
 }
