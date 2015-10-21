@@ -2,6 +2,8 @@
     "name": "adrpnt/busca-cep",
     "description": "Buscador de endereços baseados no CEP",
     "keywords" : ["viacep", "cep", "php"],
+    "homepage": "https://github.com/Seldaek/monolog",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,12 +13,9 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-4": {
-            "Cep\\": "src/"
-        }
+        "psr-4": {"Cep\\": "src/Cep"}
     },
-    "minimum-stability": "dev"
 }

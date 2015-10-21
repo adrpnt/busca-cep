@@ -45,7 +45,7 @@ class BuscaCep {
 	    $cep = str_replace("-", "", trim($cep));
 
 	    // expressao regular para avaliar o cep
-	    $checkCep = ereg("^[0-9]{8}$", $cep);
+	    $checkCep = preg_match("^[0-9]{8}$", $cep);
 	    
 	    // verifica o resultado
 	    if(!$checkCep) {            
