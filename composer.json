@@ -1,0 +1,23 @@
+{
+    "name": "adrpnt/busca-cep",
+    "description": "Buscador de endereços baseados no CEP",
+    "keywords" : ["viacep", "cep", "php"],
+    "homepage" : "https://github.com/adrpnt/busca-cep",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriano Vasconcelos",
+            "email": "pntadr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cep": "src/"
+        }
+    }
+}

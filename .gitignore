@@ -1,0 +1,4 @@
+bin/
+vendor/
+public_html/
+composer.lock
